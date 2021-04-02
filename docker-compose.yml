@@ -25,6 +25,7 @@ services:
       - "9300:9300"
       - "9100:9100"
       - "9000:9000"
+      - "8000:8000"
     environment:
       ES_JAVA_OPTS: "-Xmx512m -Xms512m"
       ELASTIC_PASSWORD: hanbiro@@@!!!
