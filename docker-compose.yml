@@ -50,8 +50,7 @@ services:
         target: /usr/share/logstash/pipeline
         read_only: true
     ports:
-      - "5000:5000"
-      - "9600:9600"
+      - "5044:5044"
     environment:
       - TZ=Asia/Ho_Chi_Minh
     networks:
